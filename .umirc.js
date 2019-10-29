@@ -40,6 +40,9 @@ export default {
     '@table-padding-vertical': '10px',
     '@table-padding-horizontal': '12px',
   },
+  define: {
+    'process.env.MapboxAccessToken': process.env.MapboxAccessToken,
+  },
   extraBabelPlugins: [
     [
       'import',
